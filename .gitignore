@@ -1,1 +1,18 @@
+# Virtual environment
 .venv/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Derived artifacts — regenerable by running the pipeline.
+# The CSVs ARE committed: ChEMBL updates over time, so keeping the exact
+# raw pull is what lets someone else reproduce these numbers.
+*.npy
+*.pkl
+
+# Backups
+*.bak
